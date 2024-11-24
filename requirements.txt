@@ -4,3 +4,5 @@ opencv-python==4.5.3.56
 python-multipart==0.0.5
 pydantic==1.8.2
 numpy==1.21.2
+boto3==1.28.44
+python-dotenv==1.0.0

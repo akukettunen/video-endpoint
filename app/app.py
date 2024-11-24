@@ -7,4 +7,4 @@ app = FastAPI(title="Video handling endpoint")
 def read_root():
     return {"Hello": "Word"}
 
-app.include_router(image.router, prefix="/image", tags=["Image"])
+app.include_router(image.router)
